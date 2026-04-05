@@ -1,12 +1,12 @@
-# Task Manager App
+## Task Manager App
 
-A full-stack task management web application built using **ASP.NET Core MVC**, **Entity Framework Core**, and **SQLite**.
+A full-stack task management web application built using ASP.NET Core MVC, Entity Framework Core, and SQLite.
 
 ## Overview
 
-This application allows users to manage tasks efficiently by creating, updating, tracking, and deleting tasks. It demonstrates core software development concepts such as MVC architecture, database integration, and CRUD operations.
+- This application allows users to manage tasks efficiently by creating, updating, tracking, and deleting tasks. It demonstrates core software development concepts such as MVC architecture, database integration, and CRUD operations.
 
-It was developed as a hands-on project to strengthen full-stack development skills using C# and modern web technologies.
+- It was developed as a hands-on project to strengthen full-stack development skills using C# and modern web technologies.
 
 ## Features
 
@@ -15,9 +15,9 @@ It was developed as a hands-on project to strengthen full-stack development skil
 - Edit and update existing tasks
 - Delete tasks
 - Track task status:
-  - To Do
-  - In Progress
-  - Done
+    - To Do
+    - In Progress
+    - Done
 - Add due dates
 - Clean and responsive UI using Bootstrap
 
@@ -39,14 +39,12 @@ It was developed as a hands-on project to strengthen full-stack development skil
 
 ## How to Run
 
-1. Clone the repository  
+1. Clone the repository
+2. Navigate to the project folder
 
-2. Navigate to the project folder  
-
-```bash
-dotnet restore
-dotnet ef database update
-dotnet run
+- dotnet restore
+- dotnet ef database update
+- dotnet run
 
 3. Open the local URL shown in the terminal
 
@@ -57,6 +55,6 @@ dotnet run
 - Task priority levels
 - Dashboard analytics
 
-#Author
+## Author
 
 Emre Aydiner
