@@ -6,6 +6,8 @@ A full-stack task management web application built using **ASP.NET Core MVC**, *
 
 This application allows users to manage tasks efficiently by creating, updating, tracking, and deleting tasks. It demonstrates core software development concepts such as MVC architecture, database integration, and CRUD operations.
 
+It was developed as a hands-on project to strengthen full-stack development skills using C# and modern web technologies.
+
 ## Features
 
 - Create new tasks
@@ -38,21 +40,23 @@ This application allows users to manage tasks efficiently by creating, updating,
 ## How to Run
 
 1. Clone the repository  
-2. Navigate to the project folder 
-3. Open the local URL shown in the terminal 
 
-## Future Improvements
-
-Search and filtering functionality
-User authentication system
-Task priority levels
-Dashboard analytics
+2. Navigate to the project folder  
 
 ```bash
 dotnet restore
 dotnet ef database update
 dotnet run
 
-Author
+3. Open the local URL shown in the terminal
+
+## Future Improvements
+
+- Search and filtering functionality
+- User authentication system
+- Task priority levels
+- Dashboard analytics
+
+#Author
 
 Emre Aydiner
